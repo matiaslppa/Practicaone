@@ -14,7 +14,7 @@ a{
 .mg{ 
       text-decoration: none;
       padding: 08px;
-      font-weight: 300px;
+      font-weight: 100px;
       font-size: 15px;
       color: #ffffff;
       background-color: #1cc475;
@@ -24,6 +24,11 @@ a{
       top: 580px;
       text-align: center;
       display: inline-block;
+      bottom: 100px;
+      right: 15px;
+      left: 500px;
+      cursor: pointer;
+
 }
  .eb{
       text-decoration: none;
@@ -37,9 +42,12 @@ a{
       position: relative;
       top: 580px;
       text-align: center;
-      display: inline-block;
-      
+      right: 100px;
+      left: 510px;
+      cursor: pointer;
 }
-
-      
+.eb:hover{
+      background-color:#da8a3f;
+      color: white;
+}      
 }
